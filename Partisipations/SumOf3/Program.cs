@@ -30,8 +30,21 @@ namespace SumOf3
             double thirdConverted = Convert.ToDouble(thirdNumber);
 
             double answer = firstConverted + secondConverted + thirdConverted;
+            double answer2 = answer * LUCKY_NUMBER;
 
-            Console.WriteLine(answer.ToString("n3"));
+            Console.WriteLine("Your numbers added together make: " + answer.ToString("n3"));
+
+            Console.WriteLine("Now, with my multiplaction manipulation, I shall multiply your number " +
+                "by my lucky number: 7.777!");
+
+            Console.WriteLine("Our new number is: " + answer2.ToString("n3"));
+
+            Console.WriteLine("To celebrate, I will now sing a song!" );
+            Console.Beep(310, 2000);
+
+
+
+
 
 
             
