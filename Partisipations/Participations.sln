@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOf3", "SumOf3\SumOf3.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional_FizzBuzz", "Conditional_FizzBuzz\Conditional_FizzBuzz.csproj", "{EAF66259-F0BB-4B74-805C-352E7277DDA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional_CoinToss", "Conditional_CoinToss\Conditional_CoinToss.csproj", "{057D89AC-2DD1-404A-BC6C-2DF8AF85A37A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional_CoinToss", "Conditional_CoinToss\Conditional_CoinToss.csproj", "{057D89AC-2DD1-404A-BC6C-2DF8AF85A37A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGuess", "RandomGuess\RandomGuess.csproj", "{7158382C-CC22-4E9F-98B7-01487DCE6362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{057D89AC-2DD1-404A-BC6C-2DF8AF85A37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{057D89AC-2DD1-404A-BC6C-2DF8AF85A37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{057D89AC-2DD1-404A-BC6C-2DF8AF85A37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7158382C-CC22-4E9F-98B7-01487DCE6362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7158382C-CC22-4E9F-98B7-01487DCE6362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7158382C-CC22-4E9F-98B7-01487DCE6362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7158382C-CC22-4E9F-98B7-01487DCE6362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
