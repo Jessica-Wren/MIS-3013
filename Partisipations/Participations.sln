@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGuess", "RandomGuess\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{319A2CFC-EC45-4C74-903C-A2A64F2B4EAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingACSVFile", "ProcessingACSVFile\ProcessingACSVFile.csproj", "{33A97548-0C7F-4EF4-9153-12A57072EE81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{319A2CFC-EC45-4C74-903C-A2A64F2B4EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319A2CFC-EC45-4C74-903C-A2A64F2B4EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319A2CFC-EC45-4C74-903C-A2A64F2B4EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
