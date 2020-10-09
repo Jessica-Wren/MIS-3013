@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGuess", "RandomGuess\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{319A2CFC-EC45-4C74-903C-A2A64F2B4EAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingACSVFile", "ProcessingACSVFile\ProcessingACSVFile.csproj", "{33A97548-0C7F-4EF4-9153-12A57072EE81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingACSVFile", "ProcessingACSVFile\ProcessingACSVFile.csproj", "{33A97548-0C7F-4EF4-9153-12A57072EE81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections_Min_Max_Avg", "Collections_Min_Max_Avg\Collections_Min_Max_Avg.csproj", "{B1F4D41B-A507-4AE1-B0CD-4EC298BA5E31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A97548-0C7F-4EF4-9153-12A57072EE81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F4D41B-A507-4AE1-B0CD-4EC298BA5E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F4D41B-A507-4AE1-B0CD-4EC298BA5E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F4D41B-A507-4AE1-B0CD-4EC298BA5E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F4D41B-A507-4AE1-B0CD-4EC298BA5E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
