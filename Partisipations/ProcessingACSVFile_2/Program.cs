@@ -21,11 +21,19 @@ namespace ProcessingACSVFile_2
 
             for (int i = 1; i < lines.Length; i++)
             {
-
+                string line = lines[i];
+                string[] pieces = line.Split(',');
+                string date = pieces[0];
+                string name = pieces[4];
+                if (pieces[3].Trim().ToLower() == "visa" && pieces[7].Trim().ToLower() == "united states")
+                {
+                    Console.WriteLine(name + " purchased a product with a Visa in the United States on " + date + ".");
+                }
             }
-           
 
-            Console.ReadKey();
+            
+
+                Console.ReadKey();
 
         }
     }
