@@ -8,6 +8,7 @@ namespace Conditional_CoinToss
         const string DEV_NAME = "Jessica Wren";
         static void Main(string[] args)
         {
+
             // Declare some variables
             string HT = "heads";
 

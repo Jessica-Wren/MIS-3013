@@ -8,7 +8,10 @@ namespace SumOf3
         const double LUCKY_NUMBER = 7.777;
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.DarkCyan;
+
+
+        
+            
 
             string firstNumber;
             string secondNumber;
@@ -45,7 +48,7 @@ namespace SumOf3
 
 
 
-
+            Console.ReadKey();
 
             
 

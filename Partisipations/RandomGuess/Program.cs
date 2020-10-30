@@ -10,7 +10,59 @@ namespace RandomGuess
     {
         static void Main(string[] args)
         {
-            // Declare some variables
+            Console.WriteLine("Input max number.");
+            int maxNum = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.WriteLine("Input min number.");
+            int minNum = Convert.ToInt32(Console.ReadLine());
+
+
+            Random rnd = new Random();
+            int number = rnd.Next(minNum, maxNum);
+
+            Console.WriteLine("The number to guess is " + number);
+
+            int guess = 0;
+
+            do
+            {
+                Console.WriteLine("Guess a number between min and max.");
+                guess = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine();
+
+                if (number != guess)
+                {
+                    Console.WriteLine("Try again");
+                }
+                else
+                {
+                    Console.WriteLine("You got it!");
+                }
+
+
+
+            } while (number != guess);
+
+
+
+
+
+
+
+
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+            /* // Declare some variables
 
             int maxNum = 0;
             int minNum = 0;
@@ -55,7 +107,7 @@ namespace RandomGuess
             Console.WriteLine();
             Console.WriteLine("You guessed the right number! Yay!");
 
-            Console.ReadKey();
+            Console.ReadKey();*/
         }
     }
 }
