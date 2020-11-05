@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{8D8314FC-74A4-4803-BBEF-69C7883874DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{2486EA32-AAF6-408E-BDA6-E10EF526BE8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{2486EA32-AAF6-408E-BDA6-E10EF526BE8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesVsParallelCollections", "ClassesVsParallelCollections\ClassesVsParallelCollections.csproj", "{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2486EA32-AAF6-408E-BDA6-E10EF526BE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2486EA32-AAF6-408E-BDA6-E10EF526BE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2486EA32-AAF6-408E-BDA6-E10EF526BE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
