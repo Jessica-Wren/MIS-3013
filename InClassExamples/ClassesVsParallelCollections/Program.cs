@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+                                                                              // 11/
 namespace ClassesVsParallelCollections
 {
     class Program
@@ -30,8 +30,25 @@ namespace ClassesVsParallelCollections
                 Console.WriteLine(firstNames[i] + " " + lastNames[i] + " " + dobs[i] + " likes " + favFood[i] + " and has account balance of " + accountBalance[i].ToString("c") + ".");
             }
 
+            //SAME BUT USE CLASSES NOW !!
+            //Long Way (When you want the bones)
+            Person jessica = new Person(); // () means you are calling on a method (person)
+            jessica.FirstName = "Jessica";
+            jessica.LastName = "Wren";
+            jessica.FavoriteFood = "Pizza";
+            jessica.AccountBalance = 500;
 
+            //Short Way (When you know what the imputs are)
 
+            Person cathy = new Person("Cathy", "Salvo", "12/25/2020", "Mango", 1000);
+
+            Console.WriteLine(jessica);
+            Console.WriteLine(cathy);
+
+            //or
+            List<Person> peeps = new List<Person>();
+            peeps.Add(cathy);
+            peeps.Add(jessica);
 
 
             Console.WriteLine("Press any key to exit");
