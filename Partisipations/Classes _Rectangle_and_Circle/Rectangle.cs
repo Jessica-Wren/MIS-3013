@@ -11,8 +11,6 @@ namespace Classes__Rectangle_and_Circle
         public double Width { get; set; }
 
 
-
-
         //path A
         //empty/default constructor
         //Method

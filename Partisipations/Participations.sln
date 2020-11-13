@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingACSVFile_2", "Pro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Method", "Simple Method\Simple Method.csproj", "{A18C5238-9E46-48B3-9E48-83431D1231D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes _Rectangle_and_Circle", "Classes _Rectangle_and_Circle\Classes _Rectangle_and_Circle.csproj", "{83103BD7-3D26-4152-AF8C-16380DF58B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes _Rectangle_and_Circle", "Classes _Rectangle_and_Circle\Classes _Rectangle_and_Circle.csproj", "{83103BD7-3D26-4152-AF8C-16380DF58B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes_Toys", "Classes_Toys\Classes_Toys.csproj", "{26702ED0-9EA8-48E2-B727-DEBA1D9F384D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{83103BD7-3D26-4152-AF8C-16380DF58B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83103BD7-3D26-4152-AF8C-16380DF58B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83103BD7-3D26-4152-AF8C-16380DF58B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26702ED0-9EA8-48E2-B727-DEBA1D9F384D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26702ED0-9EA8-48E2-B727-DEBA1D9F384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26702ED0-9EA8-48E2-B727-DEBA1D9F384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26702ED0-9EA8-48E2-B727-DEBA1D9F384D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

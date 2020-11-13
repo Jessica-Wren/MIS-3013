@@ -1,5 +1,5 @@
 ﻿using System;
-
+                                                                                                       //10/29
 namespace Simple_Method
 {
     class Program
@@ -13,7 +13,7 @@ namespace Simple_Method
             Console.ReadKey();
         }
 
-        static void Speak ()
+        static void Speak ()  //anything or parameters it accepts will go inside paraenthesis
         {
             string response = "";
             Console.WriteLine("Please enter dog, monkey, or goat.");
