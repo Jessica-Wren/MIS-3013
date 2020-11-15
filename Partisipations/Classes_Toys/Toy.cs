@@ -16,14 +16,18 @@ namespace Classes_Toys
 
         public Toy()
         {
-            string manufacturer = "";
-            string name = "";
-            double price = 0;
+            Manufacturer = "";
+            Name = "";
+            Price = 0;
+            Notes = "This boardgame is really fun!";
         }
 
         public string GetAisle() 
         {
+            Random rand = new Random();
+            int index = rand.Next(1,25);
 
+            return Manufacturer + index;
         }
 
     }

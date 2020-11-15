@@ -16,9 +16,14 @@ namespace Classes_Toys
             Toys = new List<Toy>();           // this says: this thing that we are calling toys, set that to a new instance of toys
         }
 
-        public Toy GetRandomToy() 
+        /*public Toy GetRandomToy() 
         {
-
-        }
+            
+            Random rand = new Random();
+            int index = rand.Next(1,3);
+            return Toy;
+            
+            
+        }*/
     }
 }
