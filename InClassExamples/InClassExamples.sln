@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{2486EA32-AAF6-408E-BDA6-E10EF526BE8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesVsParallelCollections", "ClassesVsParallelCollections\ClassesVsParallelCollections.csproj", "{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesVsParallelCollections", "ClassesVsParallelCollections\ClassesVsParallelCollections.csproj", "{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_SqlClient", "Database_SqlClient\Database_SqlClient.csproj", "{A66F3ADB-F699-4767-9041-98F736CFB080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE3FF6C-2DED-4603-A991-C3B65CB86A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66F3ADB-F699-4767-9041-98F736CFB080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66F3ADB-F699-4767-9041-98F736CFB080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66F3ADB-F699-4767-9041-98F736CFB080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66F3ADB-F699-4767-9041-98F736CFB080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
