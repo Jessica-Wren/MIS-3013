@@ -19,7 +19,12 @@ namespace Database_SqlClient
 
             //Making a a select statement
             string queryString = "SELECT CustomerID, FirstName, LastName, Email, Gender, Address, City, State, ZipCode " +
-                                   " FROM CUSTOMER "; 
+                                   " FROM CUSTOMER ";
+            // CustomerID = position 0, FirstName is position 1
+
+            List<Customer> customers = new List<Customer>();
+
+
 
                                                  //SqlConnection is a class and we are creating an instance of it to connect to our SQL server DB
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -33,12 +38,42 @@ namespace Database_SqlClient
                                               //Execute our querery we wrote on the connection we have open
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
-                    // reading one row at a time
+                    // reading one row at a time to get a value
                     while (reader.Read())
                     {
+                        int customerId = reader.GetInt32(0);    //customerID is at position 0; we listed it first in the select statement
+                        string firstName = reader.GetString(1);
+                        string lastName = reader.GetString(2); 
+                        string email = reader.GetString(3);
+                        string gender = reader.GetString(4);
+                        string address = reader.GetString(5);
+                        string city = reader.GetString(6);
+                        string state = reader.GetString(7);
+                        string zipCode = reader.GetString(8);
 
+                        Customer newCustomer = new Customer(customerId, firstName, lastName, email, gender, address, city, state, zipCode);
+                        customers.Add(newCustomer);
+
+                       // Console.WriteLine($"{firstName} {lastName} ({customerId}) - {email} {gender} \n{address} \n{city}, {state} {zipCode}\n");
                     }
                 }
+            }
+
+            Console.WriteLine("All of our customers: ");
+
+            foreach (var customer in customers)
+            {
+                Console.WriteLine(customer);
+            }
+
+            Console.WriteLine("All customers from the state of oklahoma: ");
+            foreach (var customer in customers)
+            {
+                if (customer.State.ToLower() == "oklahoma")
+                {
+                    Console.WriteLine(customer);
+                }
+                
             }
 
             Console.ReadKey();
